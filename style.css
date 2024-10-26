@@ -1,0 +1,58 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Projects section */
+#projects {
+    background-color: #f4f4f4;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Contact form styling */
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input, #contact textarea, #contact button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
